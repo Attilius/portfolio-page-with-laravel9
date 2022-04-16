@@ -415,6 +415,10 @@ input:checked ~ .dot .inactive{
   display: none;
 }
 
+input#toggleFour:checked ~ .box{
+  background: #3056D3;
+}
+
 input#toggleFour:checked ~ .dot{
   background: #fff;
   transform: translateX(100%);
@@ -434,6 +438,10 @@ input#toggleSix:checked ~ .dot{
   transform: translateX(100%);
 }
 
+input#toggleEight:checked ~ .box{
+  background: #EAEEFB;
+}
+
 input#toggleEight:checked ~ .dot{
   background: #3056D3;
 }
@@ -451,7 +459,35 @@ input#toggleNine:checked ~ .dot{
   background: #3056D3;
 }
 
+input:checked ~ .box{
+  border-color: #3056D3;
+}
+
+input#checkboxLabelOne:checked ~ .box{
+  border-color: #3056D3;
+}
+
 input#checkboxLabelOne:checked ~ .box .dot{
+  background: #3056D3;
+}
+
+input#checkboxLabelTwo:checked ~ .box span{
+  opacity: 100%;
+}
+
+input#checkboxLabelThree:checked ~ .box span{
+  opacity: 100%;
+}
+
+input#checkboxLabelFour:checked ~ .box{
+  border-color: #3056D3;
+}
+
+input#checkboxLabelFour:checked ~ .box span{
+  background: #3056D3;
+}
+
+input#checkboxLabelFive:checked ~ .box{
   background: #3056D3;
 }
 
@@ -629,6 +665,14 @@ input#checkboxLabelOne:checked ~ .box .dot{
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+.mx-3{
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+.mx-5{
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 .mb-6{
   margin-bottom: 1.5rem;
@@ -883,6 +927,10 @@ input#checkboxLabelOne:checked ~ .box .dot{
 .bg-\[\#E5E7EB\]{
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+.bg-dark{
+  --tw-bg-opacity: 1;
+  background-color: rgb(9 14 52 / var(--tw-bg-opacity));
 }
 .stroke-current{
   stroke: currentColor;
