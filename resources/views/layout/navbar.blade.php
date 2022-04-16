@@ -15,39 +15,6 @@
                 <div class="df">
                     <x-layout.navbar-hamburger @click="navbarOpen = !navbarOpen"
                     x-bind::class="navbarOpen && 'navbarTogglerActive' "></x-layout.navbar-hamburger>
-                    <!--Start-->
-                    <label for="light-dark-toggle" class="flex items-center cursor-pointer select-none">
-                        <div class="relative">
-                           <input type="checkbox" id="light-dark-toggle" class="sr-only">
-                           <div class="block bg-[#E5E7EB] w-14 h-8 rounded-full dark:bg-LightSlateGray-900"></div>
-                           <div class="
-                              dot
-                              absolute
-                              left-1
-                              top-1
-                              bg-white
-                              w-6
-                              h-6
-                              rounded-full
-                              transition
-                              flex
-                              items-center
-                              justify-center
-                              ">
-                              <span class="active hidden">
-                                 <svg width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10.0915 0.951972L10.0867 0.946075L10.0813 0.940568C9.90076 0.753564 9.61034 0.753146 9.42927 0.939309L4.16201 6.22962L1.58507 3.63469C1.40401 3.44841 1.11351 3.44879 0.932892 3.63584C0.755703 3.81933 0.755703 4.10875 0.932892 4.29224L0.932878 4.29225L0.934851 4.29424L3.58046 6.95832C3.73676 7.11955 3.94983 7.2 4.1473 7.2C4.36196 7.2 4.55963 7.11773 4.71406 6.9584L10.0468 1.60234C10.2436 1.4199 10.2421 1.1339 10.0915 0.951972ZM4.2327 6.30081L4.2317 6.2998C4.23206 6.30015 4.23237 6.30049 4.23269 6.30082L4.2327 6.30081Z" fill="white" stroke="white" stroke-width="0.4"></path>
-                                 </svg>
-                              </span>
-                              <span class="inactive text-body-color">
-                                 <svg class="w-4 h-4 stroke-current" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                                 </svg>
-                              </span>
-                           </div>
-                        </div>
-                     </label>
-                    <!--End-->
                     <nav
                     :class="!navbarOpen && 'hidden'"
                     id="navbarCollapse"
@@ -59,6 +26,16 @@
                         @endforeach
                     </ul>
                     </nav>
+                    <!--Start-->
+                        <div class="relative">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                class="w-5 h-5 stroke-current"
+                                viewBox="0 0 48 48"
+                                style="fill:white; margin-left: 40px;">
+                                <path d="M41.826,40.004c-0.188-0.58-0.726-0.973-1.336-0.978c-3.128-0.018-6.666-1.599-9.542-3.512 c-1.881,0.685-4.736,1.406-6.334,1.472l-0.275,0.011c-0.562,0.023-1.102,0.046-1.629,0.046c-2.092,0-3.997-0.349-6.466-2.367 l-0.22-0.221l-1.207-1.501c-0.52-0.646-0.417-1.59,0.229-2.109c0.645-0.52,1.591-0.417,2.109,0.229l1.106,1.376 c2.133,1.708,3.352,1.658,5.954,1.551l0.276-0.012c0.831-0.034,2.237-0.335,3.558-0.703c-0.956-0.856-1.72-1.689-2.194-2.399 l1.713-1.141c0.429-0.287,0.666-0.787,0.619-1.305c-0.047-0.515-0.372-0.963-0.848-1.17c-0.041-0.018-0.434-0.196-0.959-0.599 c1.185-0.891,1.975-2.433,2.085-4.253C29.065,22.221,29.5,21.664,29.5,21c0-0.828-0.672-1.5-1.5-1.5h-4.339 c0.315-7.23,5.159-12.799,7.565-14.414c0.519-0.35,0.745-0.986,0.562-1.588C31.604,2.901,31.061,2.5,30.431,2.5 c-9.048,0.034-16.481,3.94-20.394,10.717c-2.929,5.07-3.689,11.205-2.087,16.831c1.543,5.427,5.076,9.855,9.947,12.469 c3.636,1.952,7.561,2.983,11.349,2.983c0.002,0,0.004,0,0.006,0c4.384,0,8.555-1.355,12.064-3.92 C41.809,41.219,42.014,40.586,41.826,40.004z M25.466,22.5c-0.121,0.906-0.56,1.596-1.04,1.867 c-0.282-0.514-0.535-1.106-0.725-1.79L23.699,22.5H25.466z M20.87,22.5l0,0.006l1.134,0.004l-0.65,1.971 c0,0-0.012,0.003-0.023,0.007C20.781,25.402,19.947,26,19,26c-1.528,0-2.776-1.53-2.962-3.5H20.87z"></path>
+                            </svg>
+                        </div>
+                    <!--End-->
                 </div>
             </div>
         </div>
