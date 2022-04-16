@@ -16,10 +16,10 @@
                     <x-layout.navbar-hamburger @click="navbarOpen = !navbarOpen"
                     x-bind::class="navbarOpen && 'navbarTogglerActive' "></x-layout.navbar-hamburger>
                     <!--Start-->
-                    <label for="toggleThree" class="flex items-center cursor-pointer select-none">
+                    <label for="light-dark-toggle" class="flex items-center cursor-pointer select-none">
                         <div class="relative">
-                           <input type="checkbox" id="toggleThree" class="sr-only">
-                           <div class="block bg-[#E5E7EB] w-14 h-8 rounded-full"></div>
+                           <input type="checkbox" id="light-dark-toggle" class="sr-only">
+                           <div class="block bg-[#E5E7EB] w-14 h-8 rounded-full dark:bg-LightSlateGray-900"></div>
                            <div class="
                               dot
                               absolute
