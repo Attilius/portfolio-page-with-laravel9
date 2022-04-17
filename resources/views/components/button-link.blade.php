@@ -10,7 +10,7 @@ target="{{ $target }}"
         'bg-gray-900 border-gray-700 text-white hover:bg-gray-800' => $variant === 'dark',
         'bg-primary border-primary text-white hover:bg-opacity-80' => $variant === 'primary',
         'bg-emerald-600 text-white dark:bg-transparent dark:border-emerald-600 dark:text-emerald-600
-         dark:hover:bg-white dark:hover:text-emerald-600' => $variant === "custom",
+         dark:hover:bg-emerald-600 dark:hover:text-white' => $variant === "emerald",
         'bg-orange-600 text-white dark:bg-transparent dark:border-orange-600 dark:text-orange-600
          dark:hover:bg-orange-600 dark:hover:text-white' => $variant === "orange"
     ])
