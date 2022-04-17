@@ -24,7 +24,8 @@ module.exports = {
 
       },
       boxShadow: {
-        'custom': '0 4px 6px -1px rgb(46 139 87 / .3), 0 2px 4px -2px rgb(46 139 87 / .3)',
+        'emerald': '0 4px 6px -1px rgb(46 139 87 / .3), 0 2px 4px -2px rgb(46 139 87 / .3)',
+        'orange': '0 4px 6px -1px rgb(234 88 12 / .3), 0 2px 4px -2px rgb(234 88 12 / .3)',
       }
     },
   },
