@@ -2,7 +2,7 @@
 
 <div class="relative pt-[60px] lg:pt-[80px] pb-[110px] bg-white dark:bg-LightSlateGray-900">
     <div class="container">
-      <div class="flex flex-wrap -mx-8 my-4">
+      <div class="flex flex-wrap -mx-4 my-4">
         <div class="w-full lg:w-5/12 px-4">
           <div class="hero-content">
             <h1
@@ -16,7 +16,7 @@
             </p>
             <ul class="flex flex-wrap items-center">
               <li>
-                <x-button-link href="#portfolio" variant="custom" class="rounded-lg">
+                <x-button-link href="#portfolio" variant="emerald" class="rounded-lg">
                   My Projects
                 </x-button-link>
               </li>
