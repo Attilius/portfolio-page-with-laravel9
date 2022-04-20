@@ -89,11 +89,33 @@ const checkHash = () => {
             }
 
             break;
-        case '#projects':
+        case '#portfolio':
+            if (htmlClassList.length) {
+                setColor(
+                    [dark_replacedElement, dark_replacedElement2],
+                    ['dark:shadow-primary', 'hover:dark:text-blue-600']
+                );
+            } else {
+                setColor(
+                    [light_replacedElement, light_replacedElement2],
+                    ['shadow-primary', 'text-blue-600']
+                );
+            }
 
             break;
         case '#contact':
-
+            if (htmlClassList.length) {
+                setColor(
+                    [dark_replacedElement, dark_replacedElement2],
+                    ['dark:shadow-golden', 'hover:dark:text-GoldenRod-500']
+                );
+            } else {
+                setColor(
+                    [light_replacedElement, light_replacedElement2],
+                    ['shadow-golden', 'text-GoldenRod-600']
+                );
+            }
+            
             break;
 
         default:
