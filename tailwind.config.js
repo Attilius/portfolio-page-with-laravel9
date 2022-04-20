@@ -22,10 +22,17 @@ module.exports = {
           900: '#161a1d',
         },
 
+        GoldenRod: {
+          500: '#dea821',
+          600: '#b1871b',
+        },
+
       },
       boxShadow: {
         'emerald': '0 4px 6px -1px rgb(46 139 87 / .3), 0 2px 4px -2px rgb(46 139 87 / .3)',
         'orange': '0 4px 6px -1px rgb(234 88 12 / .3), 0 2px 4px -2px rgb(234 88 12 / .3)',
+        'primary': '0 4px 6px -1px rgb(37 99 235 / .3), 0 2px 4px -2px rgb(37 99 235 / .3)',
+        'golden': '0 4px 6px -1px rgb(222 168 33 / .3), 0 2px 4px -2px rgb(222 168 33 / .3)',
       }
     },
   },
