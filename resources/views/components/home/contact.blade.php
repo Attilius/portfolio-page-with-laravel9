@@ -4,7 +4,7 @@
       <div class="flex flex-wrap lg:justify-between -mx-4">
         <div class="w-full lg:w-1/2 xl:w-6/12 px-4">
           <div class="max-w-[570px] mb-12 lg:mb-0">
-            <h1 id="contact-head" class="text-dark dark:text-gray-100 mb-6 capitalize font-bold text-[32px] sm:text-[40px] lg:text-[36px] xl:text-[40px]">Contact<p id="contact-head" class="me text-GoldenRod-500 lowercase bg-white">me</p>
+            <h1 id="contact-head" class="text-dark dark:text-gray-100 mb-6 capitalize font-bold text-[32px] sm:text-[40px] lg:text-[36px] xl:text-[40px]">Contact<p id="contact-head" class="me text-GoldenRod-500 lowercase bg-white inline">me</p>
             </h1>
             <p class="text-base text-body-color dark:text-gray-200 leading-relaxed mb-9">
               If you would like to contact me, you can do so here on this page using the options down below.
