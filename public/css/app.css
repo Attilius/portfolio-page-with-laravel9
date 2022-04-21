@@ -717,6 +717,9 @@ body{
 .h-\[2px\]{
   height: 2px;
 }
+.h-60{
+  height: 15rem;
+}
 .min-h-screen{
   min-height: 100vh;
 }
@@ -740,6 +743,9 @@ body{
 }
 .w-\[30px\]{
   width: 30px;
+}
+.w-48{
+  width: 12rem;
 }
 .max-w-\[520px\]{
   max-width: 520px;
@@ -815,6 +821,9 @@ body{
 }
 .rounded-2xl{
   border-radius: 1rem;
+}
+.rounded-full{
+  border-radius: 9999px;
 }
 .border{
   border-width: 1px;
@@ -931,6 +940,9 @@ body{
 .p-20{
   padding: 5rem;
 }
+.p-5{
+  padding: 1.25rem;
+}
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -982,6 +994,18 @@ body{
 .py-\[6px\]{
   padding-top: 6px;
   padding-bottom: 6px;
+}
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+.px-7{
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 .pt-\[60px\]{
   padding-top: 60px;
@@ -1036,6 +1060,18 @@ body{
 }
 .text-\[32px\]{
   font-size: 32px;
+}
+.text-\[px\]{
+  font-size: px;
+}
+.text-\[64px\]{
+  font-size: 64px;
+}
+.text-\[50px\]{
+  font-size: 50px;
+}
+.text-\[100px\]{
+  font-size: 100px;
 }
 .font-bold{
   font-weight: 700;
@@ -1797,6 +1833,18 @@ input#checkboxLabelFive:checked ~ .box{
 
   .lg\:text-\[36px\]{
     font-size: 36px;
+  }
+
+  .lg\:text-\[5px\]{
+    font-size: 5px;
+  }
+
+  .lg\:text-\[50px\]{
+    font-size: 50px;
+  }
+
+  .lg\:text-\[100px\]{
+    font-size: 100px;
   }
 
   .lg\:shadow-none{
