@@ -925,6 +925,9 @@ body{
 .p-8{
   padding: 2rem;
 }
+.p-20{
+  padding: 5rem;
+}
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
