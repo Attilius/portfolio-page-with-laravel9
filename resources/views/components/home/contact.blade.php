@@ -59,7 +59,7 @@
                 },
                 errors: {},
                 successMessage: '',
-  
+
                 submitForm(event) {
                   this.successMessage = '';
                   this.errors = {};
@@ -95,25 +95,25 @@
                     })
                 }
             }
-            " x-on:submit.prevent="submitForm">
+            " @submit.prevent="submitForm">
               <template x-if="successMessage">
                 <div x-text="successMessage" class="py-4 px-6 bg-green-600 text-gray-100 mb-4"></div>
               </template>
               @csrf
               <div class="mb-6">
-                <x-form.input placeholder="Your Name" name="name" x-model="formData.name" ::class="errors.name ? 'border-red-500 focus:border-red-500' : ''"></x-forms.input>
+                <x-form.input placeholder="Your Name" name="name" x-model="formData.name" ::class="errors.name ? 'border-red-500 focus:border-red-500' : ''"></x-form.input>
                 <template x-if="errors.name">
                   <div x-text="errors.name[0]" class="text-red-500"></div>
                 </template>
               </div>
               <div class="mb-6">
-                <x-form.input type="email" placeholder="Your Email" name="email" x-model="formData.email" ::class="errors.email ? 'border-red-500 focus:border-red-500' : ''"></x-forms.input>
+                <x-form.input type="email" placeholder="Your Email" name="email" x-model="formData.email" ::class="errors.email ? 'border-red-500 focus:border-red-500' : ''"></x-form.input>
                 <template x-if="errors.email">
                   <div x-text="errors.email[0]" class="text-red-500"></div>
                 </template>
               </div>
               <div class="mb-6">
-                <x-form.textarea placeholder="Your Message" name="message" rows="6" x-model="formData.message" ::class="errors.message ? 'border-red-500 focus:border-red-500' : ''"></x-forms.textarea>
+                <x-form.textarea placeholder="Your Message" name="message" rows="6" x-model="formData.message" ::class="errors.message ? 'border-red-500 focus:border-red-500' : ''"></x-form.textarea>
                 <template x-if="errors.message">
                   <div x-text="errors.message[0]" class="text-red-500"></div>
                 </template>
