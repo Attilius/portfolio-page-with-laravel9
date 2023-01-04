@@ -8,22 +8,22 @@
             <h1
               class="text-dark dark:text-gray-200 font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-6"
             >
-              My Name is Attila <br/>
-              I am a <span class="rounded-md text-emerald-600">&#60;Web Developer /&#62;</span>
+              {{__('hero.name')}} <br/>
+                {{__('hero.i_am_a')}} <span class="rounded-md text-emerald-600">&#60;{{__('hero.profession')}}&#62;</span>
             </h1>
             <p class="text-base mb-8 max-w-[520px]">
-              I have been programming for two year, with web development being my main profile. I like to learn about different technologies and program languages, so that I can solve the given task in different ways, thus expanding my experience. <br/>
+                {{__('hero.introduce_myself')}} <br/>
             </p>
             <ul class="flex flex-wrap items-center">
               <li>
                 <x-button-link href="#portfolio" variant="emerald" class="rounded-lg">
-                  My Projects
+                    {{__('hero.my_projects')}}
                 </x-button-link>
               </li>
             </ul>
             <div class="clients pt-16">
               <h6 class="font-normal text-xs flex items-center text-body-color dark:text-gray-300 mb-4">
-                Follow me on social media
+                  {{__('hero.follow_me')}}
                 <span class="w-8 h-[1px] bg-body-color inline-block ml-2"></span>
               </h6>
               <x-social-icons></x-social-icons>
