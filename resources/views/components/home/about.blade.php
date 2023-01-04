@@ -36,22 +36,22 @@
           <div class="mt-10 lg:mt-0">
             <span class="font-semibold text-lg text-primary mb-2 block">
                <blockquote class="text-sm text-gray-500 italic py-2 px-3 border-l-4 border-orange-600">
-                   "A successful person is one who gets up in the morning, goes to bed at night and does what he likes in between."
+                   "{{ __('about.quote') }}"
                </blockquote>
             </span>
             <h2 class="font-bold text-3xl sm:text-4xl dark:text-gray-200 mb-8">
-              About Me
+              {{ __('about.about_me') }}
             </h2>
             <p class="text-base dark:text-gray-400 mb-8">
-                After my college studies in 2020, because of established the situation I decided to pursue a career in programming. My interest is mostly focused on
-                <span class="text-orange-600 font-bold">PHP</span> and <span class="text-orange-600 font-bold">JavaScript</span>. <br />
+                {{ __('about.description1') }}
+                <span class="text-orange-600 font-bold">PHP</span> {{ __('about.and') }} <span class="text-orange-600 font-bold">JavaScript</span>. <br />
             </p>
             <p class="text-base dark:text-gray-400 mb-8">
-                I've also found a new hobby in programming, because it's have many challenge. Problem solving has become a passion of mine over the years.
+                {{ __('about.description2') }}
                <br />
             </p>
             <x-button-link href="#" variant="orange">
-              View my channel
+                {{ __('about.experience') }}
             </x-button-link>
           </div>
         </div>
