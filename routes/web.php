@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 
@@ -15,6 +16,11 @@ use App\Http\Controllers\ContactController;
 */
 
 Route::get('/', function () {
+    return view('home');
+});
+
+Route::get('/{lang}', function ($lang) {
+    App::setlocale($lang);
     return view('home');
 });
 
