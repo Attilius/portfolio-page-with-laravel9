@@ -24,6 +24,7 @@
                         @foreach ($navigationItems as $item)
                             <x-layout.navbar-item :href="$item['href']">{{ $item['label'] }}</x-layout.navbar-item>
                         @endforeach
+                            <x-layout.select-language></x-layout.select-language>
                     </ul>
                     </nav>
                     <!--Start of switch-->
