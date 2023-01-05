@@ -50,7 +50,7 @@
                 {{ __('about.description2') }}
                <br />
             </p>
-            <x-button-link href="#" variant="orange">
+            <x-button-link href="https://profile.codersrank.io/user/attilius" target="_blank" variant="orange">
                 {{ __('about.experience') }}
             </x-button-link>
           </div>
