@@ -15,7 +15,7 @@ class SelectLanguage extends Component
     public function __construct()
     {
         $this->selectOptions = [
-            ['value' => '', 'language_name' => 'English'],
+            ['value' => 'en', 'language_name' => 'English'],
             ['value' => 'hu', 'language_name' => 'Magyar']
         ];
     }
