@@ -4,10 +4,10 @@
       <div class="flex flex-wrap lg:justify-between -mx-4">
         <div class="w-full lg:w-1/2 xl:w-6/12 px-4">
           <div class="max-w-[570px] mb-12 lg:mb-0">
-            <h1 id="contact-head" class="text-dark dark:text-gray-100 mb-6 capitalize font-bold text-[32px] sm:text-[40px] lg:text-[36px] xl:text-[40px]">Contact<p class="text-GoldenRod-500 lowercase bg-white inline p-5 rounded-full">me</p>
+            <h1 id="contact-head" class="text-dark dark:text-gray-100 mb-6 capitalize font-bold text-[32px] sm:text-[40px] lg:text-[36px] xl:text-[40px]">{{ __('contact.contact') }}<p class="text-GoldenRod-500 lowercase bg-white inline p-5 rounded-full">{{ __('contact.me') }}</p>
             </h1>
             <p class="text-base text-body-color dark:text-gray-200 leading-relaxed mb-9">
-              If you would like to contact me, you can do so here on this page using the options down below.
+                {{ __('contact.contact_description') }}
             </p>
             <div class="flex mb-8 max-w-[370px] w-full">
               <div
@@ -41,7 +41,7 @@
               </div>
               <div class="w-full">
                 <h4 class="font-bold text-dark dark:text-gray-200 text-xl mb-1">
-                  Email Address
+                    {{ __('contact.email_address') }}
                 </h4>
                 <p class="text-base text-body-color dark:text-gray-300">attila_fanczi@attiliuswebdev.fejlessz.hu</p>
               </div>
@@ -101,26 +101,26 @@
               </template>
               @csrf
               <div class="mb-6">
-                <x-form.input placeholder="Your Name" name="name" x-model="formData.name" ::class="errors.name ? 'border-red-500 focus:border-red-500' : ''"></x-form.input>
+                <x-form.input placeholder="{{ __('contact.name') }}" name="name" x-model="formData.name" ::class="errors.name ? 'border-red-500 focus:border-red-500' : ''"></x-form.input>
                 <template x-if="errors.name">
-                  <div x-text="errors.name[0]" class="text-red-500"></div>
+                  <div x-text="errors.name" class="text-red-500"></div>
                 </template>
               </div>
               <div class="mb-6">
-                <x-form.input type="email" placeholder="Your Email" name="email" x-model="formData.email" ::class="errors.email ? 'border-red-500 focus:border-red-500' : ''"></x-form.input>
+                <x-form.input type="email" placeholder="{{ __('contact.email') }}" name="email" x-model="formData.email" ::class="errors.email ? 'border-red-500 focus:border-red-500' : ''"></x-form.input>
                 <template x-if="errors.email">
                   <div x-text="errors.email[0]" class="text-red-500"></div>
                 </template>
               </div>
               <div class="mb-6">
-                <x-form.textarea placeholder="Your Message" name="message" rows="6" x-model="formData.message" ::class="errors.message ? 'border-red-500 focus:border-red-500' : ''"></x-form.textarea>
+                <x-form.textarea placeholder="{{ __('contact.message') }}" name="message" rows="6" x-model="formData.message" ::class="errors.message ? 'border-red-500 focus:border-red-500' : ''"></x-form.textarea>
                 <template x-if="errors.message">
                   <div x-text="errors.message[0]" class="text-red-500"></div>
                 </template>
               </div>
               <div>
                 <x-button class="w-full">
-                  Send Message
+                  {{ __('contact.send_message') }}
                 </x-button>
               </div>
             </form>
