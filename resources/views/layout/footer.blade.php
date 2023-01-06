@@ -3,7 +3,7 @@
     <div class="container">
         <div class="flex flex-wrap justify-between">
             <span class="inline-flex items-center text-xl">
-                Follow me on Social Media
+                {{__('hero.follow_me')}}
             </span>
             <x-social-icons class="mb-0"></x-social-icons>
         </div>
