@@ -13,6 +13,7 @@ return [
     |
     */
 
+    'email' => 'A(z) :attribute -nek érvényes e-mail címnek kell lennie.',
     'required' => 'A(z) :attribute mező kitöltése kötelező!',
 
     /*
