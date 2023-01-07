@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SelectLanguageController;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
@@ -21,7 +22,10 @@ Route::get('/', function () {
 
 Route::get('/{lang}', function ($lang) {
     App::setlocale($lang);
+
     return view('home');
 });
+
+Route::get('/hu', [SelectLanguageController::class, 'select']);
 
 Route::post('/contact/submit', [ContactController::class, 'submit']);
