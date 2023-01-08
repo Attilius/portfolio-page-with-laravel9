@@ -6,7 +6,7 @@
                              dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500
                              dark:focus:border-blue-500">
             @foreach($selectOptions as $option)
-                <x-layout.select-language-item :value="$option['value']" :selected="$option['selected']">{{ $option['language_name'] }}</x-layout.select-language-item>
+                <x-layout.select-language-item :value="$option['value']">{{ $option['language_name'] }}</x-layout.select-language-item>
             @endforeach
         </select>
     </form>
