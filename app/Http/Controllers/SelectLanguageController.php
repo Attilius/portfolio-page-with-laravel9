@@ -4,11 +4,17 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
+use Illuminate\View\View;
 
 class SelectLanguageController extends Controller
 {
-    public function select(Request $request): void
+    /**
+     * @param Request $request
+     */
+    public function select(Request $request): View
     {
-        App::setlocale('hu');
+        App::setlocale($request->lang);
+
+        return view('home');
     }
 }
