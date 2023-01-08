@@ -20,12 +20,6 @@ Route::get('/', function () {
     return view('home');
 });
 
-/*Route::get('/{lang}', function ($lang) {
-    App::setlocale($lang);
-
-    return view('home');
-});*/
-
 Route::get('/:', [SelectLanguageController::class, 'select']);
 
 Route::post('/contact/submit', [ContactController::class, 'submit']);
