@@ -10,6 +10,7 @@ class SelectLanguageController extends Controller
 {
     /**
      * @param Request $request
+     * @return View
      */
     public function select(Request $request): View
     {
