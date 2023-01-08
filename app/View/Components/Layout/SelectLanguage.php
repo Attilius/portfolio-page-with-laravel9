@@ -15,8 +15,8 @@ class SelectLanguage extends Component
     public function __construct()
     {
         $this->selectOptions = [
-            ['value' => 'en', 'language_name' => 'English'],
-            ['value' => 'hu', 'language_name' => 'Magyar']
+            ['value' => 'en', 'language_name' => 'English', 'selected' => true],
+            ['value' => 'hu', 'language_name' => 'Magyar', 'selected' => false]
         ];
     }
 
@@ -28,5 +28,14 @@ class SelectLanguage extends Component
     public function render()
     {
         return view('layout.select-language');
+    }
+
+    public function setSelected(string $value, bool $selected): void
+    {
+        foreach ($this->selectOptions as $option) {
+            if ($option['value'] == $value) {
+                $option['selected'] = $selected;
+            } else $option['selected'] = false;
+        }
     }
 }
