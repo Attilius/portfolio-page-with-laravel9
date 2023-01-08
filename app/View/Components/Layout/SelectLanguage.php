@@ -29,13 +29,4 @@ class SelectLanguage extends Component
     {
         return view('layout.select-language');
     }
-
-    public function setSelected(string $value, bool $selected): void
-    {
-        foreach ($this->selectOptions as $option) {
-            if ($option['value'] == $value) {
-                $option['selected'] = $selected;
-            } else $option['selected'] = false;
-        }
-    }
 }
