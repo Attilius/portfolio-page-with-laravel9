@@ -5,9 +5,8 @@
                              focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-LightSlateGray-900
                              dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500
                              dark:focus:border-blue-500">
-            @foreach($selectOptions as $option)
-                <x-layout.select-language-item :value="$option['value']">{{ $option['language_name'] }}</x-layout.select-language-item>
-            @endforeach
+            <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>English</option>
+            <option value="hu" {{ session()->get('locale') == 'hu' ? 'selected' : '' }}>Magyar</option>
         </select>
     </form>
 </li>
