@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\SelectLanguageController;
+use App\Http\Controllers\LanguageController;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
@@ -20,6 +20,6 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/:', [SelectLanguageController::class, 'select']);
+Route::get('lang/home', [LanguageController::class, 'index']);
 
 Route::post('/contact/submit', [ContactController::class, 'submit']);
