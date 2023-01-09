@@ -21,5 +21,5 @@ Route::get('/', function () {
 });
 
 Route::get('lang/home', [LanguageController::class, 'index']);
-
+Route::get('lang/change', [LanguageController::class, 'change'])->name('changeLang');
 Route::post('/contact/submit', [ContactController::class, 'submit']);
