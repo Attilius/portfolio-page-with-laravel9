@@ -6,20 +6,6 @@ use Illuminate\View\Component;
 
 class SelectLanguage extends Component
 {
-    public array $selectOptions = [];
-    /**
-     * Create a new component instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->selectOptions = [
-            ['value' => 'en', 'language_name' => 'English', 'selected' => true],
-            ['value' => 'hu', 'language_name' => 'Magyar', 'selected' => false]
-        ];
-    }
-
     /**
      * Get the view / contents that represent the component.
      *
