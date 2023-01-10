@@ -84,7 +84,7 @@
                         email: '',
                         message: '',
                       };
-                      this.successMessage = 'Thanks for your contact request. I will get back to you shortly.';
+                      this.successMessage = '{{ __('contact.success_message') }}';
                     })
                     .catch(async (response) => {
                         const res = await response.json();
