@@ -8,5 +8,6 @@ return [
     "send_message" => "Üzenet küldése",
     "name" => "Név",
     "email" => "Email cím",
-    "message" => "Üzenet szövege"
+    "message" => "Üzenet szövege",
+    "success_message" => "Köszönöm a kapcsolatfelvételt. Hamarosan válaszolok neked."
 ];
