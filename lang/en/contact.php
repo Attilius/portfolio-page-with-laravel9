@@ -8,5 +8,6 @@ return [
     "send_message" => "Send Message",
     "name" => "Your Name",
     "email" => "Your Email",
-    "message" => "Your Message"
+    "message" => "Your Message",
+    "success_message" => "Thanks for your contact. I will get back to you shortly."
 ];
