@@ -17,11 +17,12 @@
                     <nav
                     :class="!navbarOpen && 'hidden'"
                     id="navbarCollapse"
-                    class="absolute right-0 top-full bg-slate-200 py-5 px-6 z-50 shadow rounded-lg w-full dark:bg-LightSlateGray-900 dark:text-gray-300 lg:px-0 lg:max-w-full lg:w-full lg:right-4 lg:block lg:static lg:shadow-none"
-                    >
+                    class="absolute right-0 top-full bg-slate-200 py-5 px-6 z-50 shadow rounded-lg w-full
+                           dark:bg-LightSlateGray-900 dark:text-gray-300 lg:px-0 lg:max-w-full lg:w-full
+                           lg:right-4 lg:block lg:static lg:shadow-none">
                     <ul id="menu" class="block lg:flex lg:items-center">
                         @foreach ($navigationItems as $item)
-                            <x-layout.navbar-item :href="$item['href']">{{ $item['label'] }}</x-layout.navbar-item>
+                            <x-layout.navbar-item :href="$item['href']">{{ __('navbar')[$item['label']] }}</x-layout.navbar-item>
                         @endforeach
                             <x-layout.select-language></x-layout.select-language>
                     </ul>
