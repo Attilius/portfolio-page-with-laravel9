@@ -20,6 +20,6 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/_', [LanguageController::class, 'index']);
-Route::get('/_', [LanguageController::class, 'change'])->name('changeLang');
+Route::get('/lang', [LanguageController::class, 'index']);
+Route::get('/lang', [LanguageController::class, 'change'])->name('changeLang');
 Route::post('/contact/submit', [ContactController::class, 'submit']);
