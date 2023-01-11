@@ -17,7 +17,7 @@
             <x-layout.navbar></x-layout.navbar>
                 {{ $slot }}
             <x-layout.footer></x-layout.footer>
-        </div>   
+        </div>
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
