@@ -20,6 +20,10 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/{slug}', function () {
+    return view('page-not-found');
+});
+
 Route::get('/lang', [LanguageController::class, 'index']);
 Route::get('/lang', [LanguageController::class, 'change'])->name('changeLang');
 Route::post('/contact/submit', [ContactController::class, 'submit']);
