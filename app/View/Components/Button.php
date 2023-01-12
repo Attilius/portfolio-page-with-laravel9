@@ -11,6 +11,7 @@ class Button extends Component
     /**
      * Create a new component instance.
      *
+     * @param string
      * @return void
      */
     public function __construct(public string $variant = 'golden')
