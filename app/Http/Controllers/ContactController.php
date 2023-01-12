@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
-    public function submit(Request $request)
+    public function submit(Request $request): array
     {
         $validated = $request->validate([
             'name' => 'required',
