@@ -43,7 +43,7 @@
                 <h4 class="font-bold text-dark dark:text-gray-200 text-xl mb-1">
                     {{ __('contact.email_address') }}
                 </h4>
-                <p class="text-base text-body-color dark:text-gray-300">attila_fanczi@attiliuswebdev.fejlessz.hu</p>
+                <p class="text-base text-body-color dark:text-gray-300">{{ env('MAIL_FROM_ADDRESS') }}</p>
               </div>
             </div>
           </div>
