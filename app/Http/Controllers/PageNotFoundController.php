@@ -16,7 +16,7 @@ class PageNotFoundController extends Controller
      *  @param Request $request
      *  @return RedirectResponse|View
      */
-    public function show(Request $request)
+    public function show(Request $request): RedirectResponse|View
     {
         if (explode('/', $request->url())[3] !== self::$PATH) {
             return view('page-not-found');
