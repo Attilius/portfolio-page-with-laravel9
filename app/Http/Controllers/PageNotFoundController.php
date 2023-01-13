@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Contracts\View\View;
 
 class PageNotFoundController extends Controller
 {
@@ -13,7 +14,7 @@ class PageNotFoundController extends Controller
      * Display 404 Page not found site, when the url path is not exist.
      *
      *  @param Request $request
-     *  @return RedirectResponse
+     *  @return RedirectResponse|View
      */
     public function show(Request $request)
     {
