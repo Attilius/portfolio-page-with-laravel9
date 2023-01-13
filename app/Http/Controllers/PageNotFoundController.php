@@ -11,6 +11,7 @@ class PageNotFoundController extends Controller
     /**
      * Display 404 Page not found site, when the url path is not exist.
      *
+     *  @param Request $request
      */
     public function show(Request $request)
     {
