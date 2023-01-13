@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\LanguageController;
+use App\Http\Controllers\PageNotFoundController;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
@@ -22,4 +23,5 @@ Route::get('/', function () {
 
 Route::get('/lang', [LanguageController::class, 'index']);
 Route::get('/lang', [LanguageController::class, 'change'])->name('changeLang');
+Route::get('/{slug}', [PageNotFoundController::class, 'show']);
 Route::post('/contact/submit', [ContactController::class, 'submit']);
