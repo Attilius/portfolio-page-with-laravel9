@@ -68,7 +68,7 @@ class Portfolio extends Component
      *
      * @return View|Closure|string
      */
-    public function render()
+    public function render(): View|Closure|string
     {
         return view('components.home.portfolio');
     }
