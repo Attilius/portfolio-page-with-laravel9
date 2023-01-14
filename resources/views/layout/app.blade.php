@@ -19,11 +19,16 @@
 
     </head>
     <body class="antialiased text-gray-800 dark:text-gray-200">
-        <div class="min-h-screen bg-gray-100 dark:bg-gray-900 pt-24">
+        <div class="@if($page_not_found) pt-0 @else pt-24 @endif min-h-screen bg-gray-100 dark:bg-gray-900">
+            @if($page_not_found)
+                <x-page-not-found></x-page-not-found>
+            @else
             <x-layout.navbar></x-layout.navbar>
                 {{ $slot }}
             <x-layout.footer></x-layout.footer>
+            @endif
         </div>
+
         <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
