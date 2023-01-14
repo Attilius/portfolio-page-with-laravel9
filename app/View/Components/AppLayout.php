@@ -25,6 +25,6 @@ class AppLayout extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('layout.app');
+        return view('layout.app', ['page_not_found' => false]);
     }
 }
