@@ -19,7 +19,7 @@ class PageNotFoundController extends Controller
     public function show(Request $request): RedirectResponse|View
     {
         if (explode('/', $request->url())[3] !== self::$PATH) {
-            return view('page-not-found');
+            return view('layout.app', ['page_not_found' => true]);
         }
 
         return redirect()->back();
