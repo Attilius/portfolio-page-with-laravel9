@@ -1,6 +1,6 @@
 <div class="flex items-center min-h-screen p-16 dark:bg-LightSlateGray-900 dark:text-gray-100">
     <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
-        <div class="max-w-md text-center">
+        <div style="max-width: 28rem;" class="text-center">
             <h2 style="font-size: 8rem; line-height: 1; color: #dc2626; font-weight: 800;" class="mb-8">
                 404
             </h2>
