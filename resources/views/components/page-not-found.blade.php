@@ -6,7 +6,7 @@
             </h2>
             <p style="font-size: 1.5rem; line-height: 2rem; font-weight: 600;" class="md:text-3xl">Sorry, we couldn't find this page.</p>
             <p class="mt-4 mb-8 dark:text-gray-400">But dont worry, you can find plenty of other things on our homepage.</p>
-            <a rel="noopener noreferrer" href="/" class="px-8 py-3 font-semibold rounded dark:bg-violet-400 dark:text-gray-900">Back to homepage</a>
+            <a rel="noopener noreferrer" href="/" style="background-color: rgb(37 99 235);" class="px-8 py-3 font-semibold rounded">Back to homepage</a>
         </div>
     </div>
 </div>
