@@ -6,7 +6,6 @@
             </h2>
             <p style="font-size: 1.5rem; line-height: 2rem; font-weight: 600;" class="md:text-3xl">Sorry, we couldn't find this page.</p>
             <p class="mt-4 mb-8 dark:text-gray-400">But don't worry, you can find plenty of other things on our homepage.</p>
-            <!--<a rel="noopener noreferrer" href="/" style="background-color: rgb(37 99 235); padding-left: 2rem; padding-right: 2rem;" class="py-3 font-semibold rounded text-white">Back to homepage</a>-->
             <x-button-link href="/" variant="primary" class="rounded-lg">
                 Back to homepage
             </x-button-link>
