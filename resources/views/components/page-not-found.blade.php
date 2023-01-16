@@ -5,9 +5,9 @@
                 404
             </h2>
             <p style="font-size: 1.5rem; line-height: 2rem; font-weight: 600;" class="md:text-3xl">{{ __('page-not-found.sorry') }}</p>
-            <p class="mt-4 mb-8 dark:text-gray-400">But don't worry, you can find plenty of other things on our homepage.</p>
+            <p class="mt-4 mb-8 dark:text-gray-400">{{ __('page-not-found.opportunity') }}</p>
             <x-button-link href="/" variant="primary" class="rounded-lg">
-                Back to homepage
+                {{ __('page-not-found.back_to_homepage') }}
             </x-button-link>
         </div>
     </div>
