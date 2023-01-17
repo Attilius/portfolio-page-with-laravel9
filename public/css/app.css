@@ -931,6 +931,15 @@ body{
   --tw-bg-opacity: 1;
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
 }
+.bg-\[url\(\'\/img\/404_light\.jpg\'\)\]{
+  background-image: url('/img/404_light.jpg');
+}
+.bg-cover{
+  background-size: cover;
+}
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
 .fill-GoldenRod-500{
   fill: #dea821;
 }
@@ -1132,6 +1141,10 @@ body{
 .text-body-color{
   --tw-text-opacity: 1;
   color: rgb(99 115 129 / var(--tw-text-opacity));
+}
+.text-red-600{
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 .text-gray-800{
   --tw-text-opacity: 1;
@@ -1526,6 +1539,14 @@ input#checkboxLabelFive:checked ~ .box{
   background-color: transparent;
 }
 
+.dark .dark\:bg-\[url\(\'\/img\/404\.jpg\'\)\]{
+  background-image: url('/img/404.jpg');
+}
+
+.dark .dark\:bg-\[url\(\'\/img\/404_dark\.jpg\'\)\]{
+  background-image: url('/img/404_dark.jpg');
+}
+
 .dark .dark\:text-gray-200{
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity));
@@ -1751,6 +1772,10 @@ input#checkboxLabelFive:checked ~ .box{
 
   .md\:text-3xl{
     font-size: 2.25rem;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.875rem;
   }
 
   .md\:text-\[40px\]{
