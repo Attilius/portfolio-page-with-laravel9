@@ -121,3 +121,13 @@ input#checkboxLabelFive:checked ~ .box {
   align-items: center;
   justify-content: space-around;
 }
+
+.rounded-tl-tr-br-40xl {
+  border-top-left-radius: 20rem;
+  border-top-right-radius: 20rem;
+  border-bottom-right-radius: 20rem;
+}
+
+.max-h-120 {
+  max-height: 30rem;
+}
