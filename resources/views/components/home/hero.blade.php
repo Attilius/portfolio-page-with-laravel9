@@ -34,9 +34,9 @@
           <div class="lg:text-right lg:ml-auto">
             <div class="relative inline-block z-10 pt-11 lg:pt-0">
               <img
-                src="{{ url('') }}"
+                src="{{ url('/img/hero.jpg') }}"
                 alt="hero"
-                class="max-w-full lg:ml-auto"
+                class="max-w-full lg:ml-auto rounded-tl-tr-br-40xl max-h-120"
               />
               <span class="absolute -left-8 -bottom-8 z-[-1]">
                 <svg
