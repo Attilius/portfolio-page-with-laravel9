@@ -919,10 +919,6 @@ body{
   --tw-bg-opacity: 1;
   background-color: rgb(234 88 12 / var(--tw-bg-opacity));
 }
-.bg-gray-50{
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
 .bg-gray-300{
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
@@ -1422,6 +1418,16 @@ input#checkboxLabelFive:checked ~ .box{
   justify-content: space-around;
 }
 
+.rounded-tl-tr-br-40xl {
+  border-top-left-radius: 20rem;
+  border-top-right-radius: 20rem;
+  border-bottom-right-radius: 20rem;
+}
+
+.max-h-120 {
+  max-height: 30rem;
+}
+
 .hover\:scale-105:hover{
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
@@ -1537,10 +1543,6 @@ input#checkboxLabelFive:checked ~ .box{
 
 .dark .dark\:bg-transparent{
   background-color: transparent;
-}
-
-.dark .dark\:bg-\[url\(\'\/img\/404\.jpg\'\)\]{
-  background-image: url('/img/404.jpg');
 }
 
 .dark .dark\:bg-\[url\(\'\/img\/404_dark\.jpg\'\)\]{
@@ -1770,12 +1772,12 @@ input#checkboxLabelFive:checked ~ .box{
     padding-bottom: 0.75rem;
   }
 
-  .md\:text-3xl{
-    font-size: 2.25rem;
-  }
-
   .md\:text-2xl{
     font-size: 1.875rem;
+  }
+
+  .md\:text-3xl{
+    font-size: 2.25rem;
   }
 
   .md\:text-\[40px\]{
