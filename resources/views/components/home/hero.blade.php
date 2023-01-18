@@ -9,7 +9,8 @@
                     sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-6"
             >
               {{__('hero.name')}} <br/>
-                {{__('hero.i_am_a')}} <span class="rounded-md text-emerald-600">&#60;{{__('hero.profession')}}&#62;</span>
+                {{__('hero.i_am_a')}}
+                <span class="rounded-md text-emerald-600">&#60;{{__('hero.profession')}}&#62;</span>
             </h1>
             <p class="text-base mb-8 max-w-[520px]">
                 {{__('hero.introduce_myself')}} <br/>
