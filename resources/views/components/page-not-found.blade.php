@@ -4,7 +4,7 @@
     <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
         <div class="max-w-md text-center">
             <h2 class="mb-8 font-extrabold text-9xl text-red-600">
-                <span class="sr-only">Error</span>404
+                <span class="sr-only">{{ __('page-not-found.error') }}</span>404
             </h2>
             <p class="text-xl font-semibold md:text-2xl">{{ __('page-not-found.sorry') }}</p>
             <p class="mt-4 mb-8 dark:text-gray-400">{{ __('page-not-found.opportunity') }}</p>
