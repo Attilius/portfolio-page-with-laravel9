@@ -5097,41 +5097,20 @@ var actualScrollPosition = 0;
 var action = false;
 
 function checkScrollPosition(scrollPosition) {
-  var dark_replacedElement = findReplacedElement(headerClassList, 'dark:shadow-');
-  var dark_replacedElement2 = findReplacedElement(menuItemClassList, 'hover:dark:text-');
-  var light_replacedElement = findReplacedElement(headerClassList, 'shadow-');
-  var light_replacedElement2 = findReplacedElement(menuItemClassList, 'text-');
-
   if (scrollPosition < heroSectionEndPoint) {
-    if (htmlClassList.length) {
-      setColor([dark_replacedElement, dark_replacedElement2], ['dark:shadow-emerald', 'hover:dark:text-emerald-600']);
-    } else {
-      setColor([light_replacedElement, light_replacedElement2], ['shadow-emerald', 'text-emerald-600']);
-    }
+    window.location.hash = '#';
   }
 
   if (scrollPosition >= heroSectionEndPoint && scrollPosition < aboutSectionEndPoint) {
-    if (htmlClassList.length) {
-      setColor([dark_replacedElement, dark_replacedElement2], ['dark:shadow-orange', 'hover:dark:text-orange-600']);
-    } else {
-      setColor([light_replacedElement, light_replacedElement2], ['shadow-orange', 'text-orange-600']);
-    }
+    window.location.hash = '#about';
   }
 
   if (scrollPosition >= aboutSectionEndPoint && scrollPosition < portfolioSectionEndPoint) {
-    if (htmlClassList.length) {
-      setColor([dark_replacedElement, dark_replacedElement2], ['dark:shadow-primary', 'hover:dark:text-blue-600']);
-    } else {
-      setColor([light_replacedElement, light_replacedElement2], ['shadow-primary', 'text-blue-600']);
-    }
+    window.location.hash = '#portfolio';
   }
 
   if (scrollPosition >= portfolioSectionEndPoint) {
-    if (htmlClassList.length) {
-      setColor([dark_replacedElement, dark_replacedElement2], ['dark:shadow-golden', 'hover:dark:text-GoldenRod-500']);
-    } else {
-      setColor([light_replacedElement, light_replacedElement2], ['shadow-golden', 'text-GoldenRod-600']);
-    }
+    window.location.hash = '#contact';
   }
 }
 
