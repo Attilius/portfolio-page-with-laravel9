@@ -14,9 +14,8 @@
 </li> -->
 <li>
     <div class="relative inline-block text-left lg:ml-6 xl:ml-12 bg-slate-200 text-gray-900 text-sm
-                         focus:ring-blue-500 block dark:bg-LightSlateGray-900
-                         dark:placeholder-gray-400 dark:text-white hover:text-dark
-                         dark:text-gray-200 focus:outline-none">
+                block dark:bg-LightSlateGray-900 dark:placeholder-gray-400
+                dark:text-white hover:text-dark dark:text-gray-200">
         <div>
             <button id="lang_btn" onclick="{
                 const languageDropDownBox = document.getElementById('language_drop_down_box');
