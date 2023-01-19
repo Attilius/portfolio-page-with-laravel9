@@ -1,26 +1,13 @@
-<!-- <li>
-    <label for="languages"></label>
-    <select onchange="{
-                const url = `{{ route('changeLang') }}`
-                window.location.href = url + '?lang=' + value;
-             }"
-            name="lang" id="languages" class="lg:ml-6 xl:ml-12 bg-slate-200 text-gray-900 text-sm
-                         focus:ring-blue-500 block p-2.5 dark:bg-LightSlateGray-900
-                         dark:placeholder-gray-400 dark:text-white hover:text-dark
-                         dark:text-gray-200 focus:outline-none">
-        <option value="en" {{ session()->get('locale') == 'en' ? 'selected' : '' }}>English</option>
-        <option value="hu" {{ session()->get('locale') == 'hu' ? 'selected' : '' }}>Magyar</option>
-    </select>
-</li> -->
 <li>
     <div class="relative inline-block text-left lg:ml-6 xl:ml-12 bg-slate-200 text-gray-900 text-sm
                 block dark:bg-LightSlateGray-900 dark:placeholder-gray-400
                 dark:text-white hover:text-dark dark:text-gray-200">
         <div>
-            <button id="lang_btn" onclick="{
-                const languageDropDownBox = document.getElementById('language_drop_down_box');
-                languageDropDownBox.classList.replace('invisible', 'visible');
-            }"
+            <button id="lang_btn"
+                    onclick="{
+                        const languageDropDownBox = document.getElementById('language_drop_down_box');
+                        languageDropDownBox.classList.replace('invisible', 'visible');
+                    }"
                     type="button"
                     class="inline-flex w-full justify-center text-sm font-medium
                            dark:text-white shadow-sm bg-slate-200 dark:bg-LightSlateGray-900 my-3"
