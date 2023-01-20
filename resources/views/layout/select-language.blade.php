@@ -13,7 +13,7 @@
                            dark:text-white shadow-sm bg-slate-200 dark:bg-LightSlateGray-900 my-3"
                     id="menu-button" aria-expanded="true" aria-haspopup="true">
                 @if(session()->get('locale') == 'en' || app()->getLocale() == 'en')
-                    <x-flag-language-en class="w-8 h-8" />
+                        <x-flag-language-en class="w-8 h-8" />
                 @endif
                 @if(session()->get('locale') == 'hu' || app()->getLocale() == 'hu')
                         <x-flag-language-hu class="w-8 h-8" />
