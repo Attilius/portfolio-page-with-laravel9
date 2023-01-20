@@ -1,8 +1,8 @@
  <!-- ====== Navbar Section Start ====== -->
  <header
     x-data="{navbarOpen: false}"
-    class="fixed left-0 top-0 z-50 bg-slate-200 w-full flex items-center shadow-emerald dark:bg-LightSlateGray-900 h-24 dark:shadow-emerald"
- >
+    class="fixed left-0 top-0 z-50 bg-slate-200 w-full flex items-center
+           shadow-emerald dark:bg-LightSlateGray-900 h-24 dark:shadow-emerald">
     <div class="container">
         <div class="flex -mx-4 items-center justify-between relative">
             <div class="pr-4 w-60 max-w-full">
