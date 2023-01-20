@@ -24,7 +24,8 @@
         </div>
     </div>
 
-    <div id="language_drop_down_box" class="absolute right-0 z-10 mt-2 mr-20 w-[120px] origin-top-right rounded-md bg-white
+    <div id="language_drop_down_box"
+         class="absolute right-0 z-10 mt-2 mr-20 w-[120px] origin-top-right rounded-md bg-white
                 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none bg-slate-200
                 dark:bg-LightSlateGray-800 invisible"
          role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
