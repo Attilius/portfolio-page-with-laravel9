@@ -15,7 +15,8 @@
                 @if(session()->get('locale') == 'en' || app()->getLocale() == 'en')
                     <x-flag-language-en class="w-8 h-8" />
                 @endif
-                @if(session()->get('locale') == 'hu' || app()->getLocale() == 'hu') <x-flag-language-hu class="w-8 h-8" />
+                @if(session()->get('locale') == 'hu' || app()->getLocale() == 'hu')
+                        <x-flag-language-hu class="w-8 h-8" />
                 @endif
                 <!-- Hero icon name: mini/chevron-down -->
                 <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
