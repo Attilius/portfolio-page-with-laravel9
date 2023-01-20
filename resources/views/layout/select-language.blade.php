@@ -30,7 +30,7 @@
                 dark:bg-LightSlateGray-800 invisible"
          role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
         <div class="py-1" role="none">
-            <!-- Active: "bg-gray-100 text-gray-900", Not Active: "text-gray-700" -->
+
             <a onclick="{
                 const url = `{{ route('changeLang') }}`
                 window.location.href = url + '?lang=en';
