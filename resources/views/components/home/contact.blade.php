@@ -4,7 +4,8 @@
       <div class="flex flex-wrap lg:justify-between -mx-4">
         <div class="w-full lg:w-1/2 xl:w-6/12 px-4">
           <div class="max-w-[570px] mb-12 lg:mb-0">
-            <h1 id="contact-head" class="text-dark dark:text-gray-100 mb-6 capitalize font-bold text-[32px] sm:text-[40px] lg:text-[36px] xl:text-[40px]">{{ __('contact.contact') }}<p class="text-GoldenRod-500 lowercase bg-white inline p-5 rounded-full">{{ __('contact.me') }}</p>
+            <h1 id="contact-head"
+                class="text-dark dark:text-gray-100 mb-6 capitalize font-bold text-[32px] sm:text-[40px] lg:text-[36px] xl:text-[40px]">{{ __('contact.contact') }}<p class="text-GoldenRod-500 lowercase bg-white inline p-5 rounded-full">{{ __('contact.me') }}</p>
             </h1>
             <p class="text-base text-body-color dark:text-gray-200 leading-relaxed mb-9">
                 {{ __('contact.contact_description') }}
