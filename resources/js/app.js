@@ -164,7 +164,6 @@ const checkHash = () => {
 /*document.addEventListener('click', (e) => {
   const languageParentIds = ['language-item-en', 'language-item-hu'];
   const span_id = e.target.parentElement.id;
-  const svg_id = e.target.parentElement.parentElement.id;
 
 
 
