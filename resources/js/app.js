@@ -168,7 +168,7 @@ const checkHash = () => {
 
   if (selectLanguageDropDownBox.classList.contains('visible') &&
       !languageParentIds.includes(span_id) ||!languageParentIds.includes(svg_id))
-    selectLanguageDropDownBox.classList.replace('visible', 'invisible');
+
 });*/
 
   selectLanguageBtn.addEventListener('mousedown', () => {
