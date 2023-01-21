@@ -166,7 +166,6 @@ const checkHash = () => {
   const span_id = e.target.parentElement.id;
   const svg_id = e.target.parentElement.parentElement.id;
 
-  if (selectLanguageDropDownBox.classList.contains('visible') &&
 
 
 });*/
