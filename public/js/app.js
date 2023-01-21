@@ -5207,13 +5207,7 @@ var checkHash = function checkHash() {
   }
 };
 /*document.addEventListener('click', (e) => {
-  const languageParentIds = ['language-item-en', 'language-item-hu'];
-  const span_id = e.target.parentElement.id;
-  const svg_id = e.target.parentElement.parentElement.id;
 
-  if (selectLanguageDropDownBox.classList.contains('visible') &&
-      !languageParentIds.includes(span_id) ||!languageParentIds.includes(svg_id))
-    selectLanguageDropDownBox.classList.replace('visible', 'invisible');
 });*/
 
 
