@@ -161,9 +161,6 @@ const checkHash = () => {
             break;
     }
 }
-/*document.addEventListener('click', (e) => {
-  const languageParentIds = ['language-item-en', 'language-item-hu'];
-});*/
 
   selectLanguageBtn.addEventListener('mousedown', () => {
     languageSelectAction = true;
