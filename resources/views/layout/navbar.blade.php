@@ -7,7 +7,7 @@
         <div class="flex -mx-4 items-center justify-between relative">
             <div class="pr-4 w-60 max-w-full">
                 <!--<a href="/" class="w-full flex items-center py-2">
-                    <span id="logo" class="text-xl xl:text-2xl font-bold text-emerald-600 dark:text-white">Attilius</span>
+
                 </a>-->
                 <img src="{{ url('/img/logo_white.png') }}"
                      alt="logo" id="logo" class="max-h-12">
