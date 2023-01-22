@@ -6,8 +6,6 @@
     <div class="container">
         <div class="flex -mx-4 items-center justify-between relative">
             <div class="pr-4 w-60 max-w-full">
-                <!--<a href="/" class="w-full flex items-center py-2">
-                </a>-->
                 <img src="{{ url('/img/logo_white.png') }}"
                      alt="logo" id="logo" class="max-h-12">
             </div>
