@@ -4,18 +4,21 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use \Illuminate\Http\Response;
-use \Illuminate\Http\RedirectResponse;
+use Illuminate\Http\Response;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\App;
+use Psr\Container\ContainerExceptionInterface;
 
 class LanguageManager
 {
     /**
      * Handle an incoming request.
      *
-     * @param  Request $request
-     * @param  Closure(Request): (Response|RedirectResponse) $next
+     * @param Request $request
+     * @param Closure(Request): (Response|RedirectResponse) $next
      * @return Response|RedirectResponse
+     * @throws ContainerExceptionInterface
+     * @throws \Psr\Container\NotFoundExceptionInterface
      */
     public function handle(Request $request, Closure $next): Response|RedirectResponse
     {
