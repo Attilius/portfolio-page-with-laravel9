@@ -17,7 +17,7 @@ class LanguageManager
      * @param  Closure(Request): (Response|RedirectResponse) $next
      * @return Response|RedirectResponse
      */
-    public function handle(Request $request, Closure $next)
+    public function handle(Request $request, Closure $next): Response|RedirectResponse
     {
         if (session()->has('locale')) {
             App::setLocale(session()->get('locale'));
