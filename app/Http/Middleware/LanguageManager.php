@@ -8,6 +8,7 @@ use Illuminate\Http\Response;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\App;
 use Psr\Container\ContainerExceptionInterface;
+use Psr\Container\NotFoundExceptionInterface;
 
 class LanguageManager
 {
@@ -18,7 +19,7 @@ class LanguageManager
      * @param Closure(Request): (Response|RedirectResponse) $next
      * @return Response|RedirectResponse
      * @throws ContainerExceptionInterface
-     * @throws \Psr\Container\NotFoundExceptionInterface
+     * @throws NotFoundExceptionInterface
      */
     public function handle(Request $request, Closure $next): Response|RedirectResponse
     {
