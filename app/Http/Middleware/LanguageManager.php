@@ -13,7 +13,8 @@ use Psr\Container\NotFoundExceptionInterface;
 class LanguageManager
 {
     /**
-     * Handle an incoming request.
+     * Handle an incoming request when happening change of language.
+     * If session has a locale than set the locale from session.
      *
      * @param Request $request
      * @param Closure(Request): (Response|RedirectResponse) $next
