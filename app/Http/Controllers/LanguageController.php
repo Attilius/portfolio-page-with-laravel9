@@ -20,7 +20,7 @@ class LanguageController extends Controller
     }
 
     /**
-     * Display a listing of the resource.
+     * When happening a language change, then set the new language and redirect into the home section.
      *
      * @param Request $request
      * @return RedirectResponse
