@@ -10,7 +10,7 @@ use Illuminate\View\View;
 class LanguageController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display the page in home section.
      *
      * @return View
      */
