@@ -1,3 +1,5 @@
+import store from "alpinejs";
+
 require('./bootstrap');
 
 import Alpine from 'alpinejs';
@@ -6,7 +8,7 @@ window.Alpine = Alpine;
 
 Alpine.start();
 
-const lightDarkSwitch = document.getElementById('light-dark-switch');
+const darkThemeSwitch = document.getElementById('dark_theme_switch');
 const htmlClassList = document.documentElement.classList;
 const menuElement = document.getElementsByClassName('menuItem');
 const header = document.querySelector('header');
@@ -19,6 +21,7 @@ const heroSectionEndPoint = heroHeight;
 const aboutSectionEndPoint = heroHeight + aboutHeight;
 const portfolioSectionEndPoint = heroHeight + aboutHeight + portfolioHeight;
 const logo = document.getElementById('logo');
+const darkMode = JSON.parse(localStorage.getItem('darkMode'));
 
 const paths = {
     sun: "M 23.976562 3.9785156 A 1.50015 1.50015 0 0 0 22.5 5.5 L 22.5 8.5 A 1.50015 1.50015 0 1 0 25.5 8.5 L 25.5 5.5 A 1.50015 1.50015 0 0 0 23.976562 3.9785156 z M 10.902344 9.4042969 A 1.50015 1.50015 0 0 0 9.8574219 11.980469 L 11.978516 14.101562 A 1.5012202 1.5012202 0 0 0 14.101562 11.978516 L 11.980469 9.8574219 A 1.50015 1.50015 0 0 0 10.902344 9.4042969 z M 37.050781 9.4042969 A 1.50015 1.50015 0 0 0 36.019531 9.8574219 L 33.898438 11.978516 A 1.5012202 1.5012202 0 0 0 36.021484 14.101562 L 38.142578 11.980469 A 1.50015 1.50015 0 0 0 37.050781 9.4042969 z M 24 13 C 17.942632 13 13 17.942636 13 24 C 13 30.057364 17.942632 35 24 35 C 30.057368 35 35 30.057364 35 24 C 35 17.942636 30.057368 13 24 13 z M 24 16 C 28.436049 16 32 19.563954 32 24 C 32 28.436046 28.436049 32 24 32 C 19.563951 32 16 28.436046 16 24 C 16 19.563954 19.563951 16 24 16 z M 5.5 22.5 A 1.50015 1.50015 0 1 0 5.5 25.5 L 8.5 25.5 A 1.50015 1.50015 0 1 0 8.5 22.5 L 5.5 22.5 z M 39.5 22.5 A 1.50015 1.50015 0 1 0 39.5 25.5 L 42.5 25.5 A 1.50015 1.50015 0 1 0 42.5 22.5 L 39.5 22.5 z M 13.009766 33.445312 A 1.50015 1.50015 0 0 0 11.978516 33.898438 L 9.8574219 36.019531 A 1.501221 1.501221 0 1 0 11.980469 38.142578 L 14.101562 36.021484 A 1.50015 1.50015 0 0 0 13.009766 33.445312 z M 34.943359 33.445312 A 1.50015 1.50015 0 0 0 33.898438 36.021484 L 36.019531 38.142578 A 1.5012209 1.5012209 0 1 0 38.142578 36.019531 L 36.021484 33.898438 A 1.50015 1.50015 0 0 0 34.943359 33.445312 z M 23.976562 37.978516 A 1.50015 1.50015 0 0 0 22.5 39.5 L 22.5 42.5 A 1.50015 1.50015 0 1 0 25.5 42.5 L 25.5 39.5 A 1.50015 1.50015 0 0 0 23.976562 37.978516 z",
@@ -26,6 +29,19 @@ const paths = {
 }
 let actualScrollPosition = 0;
 let windowScrollAction = false;
+
+window.addEventListener('DOMContentLoaded', () => {
+  if(darkMode) {
+    logo.src = location.origin + '/img/logo_white.png';
+    darkThemeSwitch.firstElementChild.d = paths.moon;
+    checkHash();
+  }
+  else {
+    logo.src = location.origin + '/img/logo_green.png';
+    darkThemeSwitch.firstElementChild.d = paths.sun;
+    checkHash();
+  }
+});
 
 function checkScrollPosition(scrollPosition) {
 
@@ -56,7 +72,7 @@ document.addEventListener('scroll', () => {
   }
 });
 
-lightDarkSwitch.addEventListener('click', (e) => {
+/*darkThemeSwitch.addEventListener('click', (e) => {
 
     const displayThemeSwitchAction = htmlClassList.toggle('dark');
 
@@ -68,7 +84,7 @@ lightDarkSwitch.addEventListener('click', (e) => {
         checkHash();
     }
 
-});
+});*/
 
 const findReplacedElement = (array, string) => {
     for (let i = 0; i < array.length; i++) {
