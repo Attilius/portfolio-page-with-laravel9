@@ -78,7 +78,6 @@ document.addEventListener('scroll', () => {
 
     if (displayThemeSwitchAction) {
       e.target.children[0].attributes[1].value = paths.moon;
-        checkHash();
     } else {
       e.target.children[0].attributes[1].value = paths.sun;
     }
