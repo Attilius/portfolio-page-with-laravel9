@@ -5140,16 +5140,6 @@ document.addEventListener('scroll', function () {
 });
 /*darkThemeSwitch.addEventListener('click', (e) => {
 
-    const displayThemeSwitchAction = htmlClassList.toggle('dark');
-
-    if (displayThemeSwitchAction) {
-      e.target.children[0].attributes[1].value = paths.moon;
-        checkHash();
-    } else {
-      e.target.children[0].attributes[1].value = paths.sun;
-        checkHash();
-    }
-
 });*/
 
 var findReplacedElement = function findReplacedElement(array, string) {
