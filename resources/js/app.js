@@ -81,7 +81,6 @@ document.addEventListener('scroll', () => {
         checkHash();
     } else {
       e.target.children[0].attributes[1].value = paths.sun;
-        checkHash();
     }
 });*/
 
