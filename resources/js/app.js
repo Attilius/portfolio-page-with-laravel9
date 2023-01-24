@@ -76,9 +76,7 @@ document.addEventListener('scroll', () => {
 
     const displayThemeSwitchAction = htmlClassList.toggle('dark');
 
-    if (displayThemeSwitchAction) {
-      e.target.children[0].attributes[1].value = paths.moon;
-    }
+
 });*/
 
 const findReplacedElement = (array, string) => {
