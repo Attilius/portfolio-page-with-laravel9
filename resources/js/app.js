@@ -73,10 +73,7 @@ document.addEventListener('scroll', () => {
 });
 
 /*darkThemeSwitch.addEventListener('click', (e) => {
-
     const displayThemeSwitchAction = htmlClassList.toggle('dark');
-
-
 });*/
 
 const findReplacedElement = (array, string) => {
