@@ -83,7 +83,6 @@ document.addEventListener('scroll', () => {
       e.target.children[0].attributes[1].value = paths.sun;
         checkHash();
     }
-
 });*/
 
 const findReplacedElement = (array, string) => {
