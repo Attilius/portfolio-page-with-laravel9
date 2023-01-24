@@ -72,10 +72,6 @@ document.addEventListener('scroll', () => {
   }
 });
 
-/*darkThemeSwitch.addEventListener('click', (e) => {
-
-});*/
-
 const findReplacedElement = (array, string) => {
     for (let i = 0; i < array.length; i++) {
         if (array[i].startsWith(string)) {
