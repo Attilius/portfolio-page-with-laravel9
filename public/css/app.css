@@ -745,12 +745,6 @@ body{
 .h-\[2px\]{
   height: 2px;
 }
-.max-h-20{
-  max-height: 5rem;
-}
-.max-h-10{
-  max-height: 2.5rem;
-}
 .max-h-12{
   max-height: 3rem;
 }
@@ -1025,10 +1019,6 @@ body{
   padding-left: 14px;
   padding-right: 14px;
 }
-.py-2{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1036,6 +1026,10 @@ body{
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .py-4{
   padding-top: 1rem;
@@ -1645,11 +1639,6 @@ input#checkboxLabelFive:checked ~ .box{
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
-.dark .dark\:text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .dark .dark\:text-GoldenRod-500{
   --tw-text-opacity: 1;
   color: rgb(222 168 33 / var(--tw-text-opacity));
@@ -1668,6 +1657,11 @@ input#checkboxLabelFive:checked ~ .box{
 .dark .dark\:text-orange-600{
   --tw-text-opacity: 1;
   color: rgb(234 88 12 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .dark .dark\:placeholder-gray-400::-moz-placeholder{
@@ -2026,10 +2020,6 @@ input#checkboxLabelFive:checked ~ .box{
 
   .xl\:text-\[42px\]{
     font-size: 42px;
-  }
-
-  .xl\:text-2xl{
-    font-size: 1.875rem;
   }
 
   .xl\:text-\[40px\]{
