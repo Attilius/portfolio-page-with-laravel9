@@ -2,7 +2,6 @@
 
 namespace App\View\Components\Form;
 
-use Closure;
 use Illuminate\View\Component;
 use Illuminate\Contracts\View\View;
 
