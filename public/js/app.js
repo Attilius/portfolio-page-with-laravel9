@@ -5138,9 +5138,6 @@ document.addEventListener('scroll', function () {
     windowScrollAction = false;
   }
 });
-/*darkThemeSwitch.addEventListener('click', (e) => {
-
-});*/
 
 var findReplacedElement = function findReplacedElement(array, string) {
   for (var i = 0; i < array.length; i++) {
