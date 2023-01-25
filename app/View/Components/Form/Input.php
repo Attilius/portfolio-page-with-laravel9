@@ -2,6 +2,7 @@
 
 namespace App\View\Components\Form;
 
+use Closure;
 use Illuminate\View\Component;
 
 class Input extends Component
