@@ -22,7 +22,7 @@ class LanguageManager
      * @throws ContainerExceptionInterface
      * @throws NotFoundExceptionInterface
      */
-    public function handle(Request $request, Closure $next): Response|RedirectResponse
+    public function handle(Request $request, Closure $next)
     {
         if (session()->has('locale')) {
             App::setLocale(session()->get('locale'));
