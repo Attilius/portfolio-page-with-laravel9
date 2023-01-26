@@ -64,7 +64,7 @@ class Portfolio extends Component
     }
 
     /**
-     * Get the view / contents that represent the component.
+     * Get the view / contents that represent the Portfolio component.
      *
      * @return View|Closure|string
      */
