@@ -7,7 +7,7 @@ use Illuminate\View\Component;
 class Textarea extends Component
 {
     /**
-     * Create a new component instance.
+     * Create a new Textarea component instance.
      *
      * @return void
      */
