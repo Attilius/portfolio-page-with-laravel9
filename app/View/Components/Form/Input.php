@@ -9,7 +9,7 @@ use Illuminate\Contracts\View\View;
 class Input extends Component
 {
     /**
-     * Create a new component instance.
+     * Create a new input component instance.
      *
      * @return void
      */
