@@ -15,7 +15,7 @@ class Portfolio extends Component
     public array $tabs = [];
 
     /**
-     * Create a new component instance.
+     * Create a new Portfolio component instance.
      *
      * @return void
      */
