@@ -20,7 +20,7 @@ class Textarea extends Component
     /**
      * Get the view / contents that represent the Textarea component.
      *
-     * @return \Illuminate\Contracts\View\View
+     * @return View
      */
     public function render()
     {
