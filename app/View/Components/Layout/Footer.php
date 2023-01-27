@@ -17,7 +17,7 @@ class Footer extends Component
     }
 
     /**
-     * Get the view / contents that represent the component.
+     * Get the view / contents that represent the Footer component.
      *
      * @return \Illuminate\Contracts\View\View|\Closure|string
      */
