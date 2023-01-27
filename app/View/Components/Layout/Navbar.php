@@ -8,7 +8,7 @@ class Navbar extends Component
 {
     public array $navigationItems = [];
     /**
-     * Create a new component instance.
+     * Create a new Navbar component instance.
      *
      * @return void
      */
