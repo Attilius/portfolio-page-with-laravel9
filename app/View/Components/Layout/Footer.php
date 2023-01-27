@@ -7,7 +7,7 @@ use Illuminate\View\Component;
 class Footer extends Component
 {
     /**
-     * Create a new component instance.
+     * Create a new Footer component instance.
      *
      * @return void
      */
