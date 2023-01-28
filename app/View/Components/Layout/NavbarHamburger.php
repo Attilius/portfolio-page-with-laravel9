@@ -2,6 +2,7 @@
 
 namespace App\View\Components\Layout;
 
+use Closure;
 use Illuminate\View\Component;
 
 class NavbarHamburger extends Component
