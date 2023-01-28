@@ -17,7 +17,7 @@ class NavbarHamburger extends Component
     }
 
     /**
-     * Get the view / contents that represent the component.
+     * Get the view / contents that represent the NavbarHamburger component.
      *
      * @return \Illuminate\Contracts\View\View|\Closure|string
      */
