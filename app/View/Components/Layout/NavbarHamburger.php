@@ -4,6 +4,7 @@ namespace App\View\Components\Layout;
 
 use Closure;
 use Illuminate\View\Component;
+use Illuminate\Contracts\View\View;
 
 class NavbarHamburger extends Component
 {
