@@ -7,7 +7,7 @@ use Illuminate\View\Component;
 class NavbarHamburger extends Component
 {
     /**
-     * Create a new component instance.
+     * Create a new NavbarHamburger component instance.
      *
      * @return void
      */
