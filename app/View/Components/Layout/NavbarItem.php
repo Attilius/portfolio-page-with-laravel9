@@ -7,7 +7,7 @@ use Illuminate\View\Component;
 class NavbarItem extends Component
 {
     /**
-     * Create a new component instance.
+     * Create a new NavbarItem component instance.
      *
      * @return void
      */
