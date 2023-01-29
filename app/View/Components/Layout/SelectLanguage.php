@@ -13,7 +13,7 @@ class SelectLanguage extends Component
      *
      * @return View|Closure|string
      */
-    public function render()
+    public function render(): View|Closure|string
     {
         return view('layout.select-language');
     }
