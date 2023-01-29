@@ -11,7 +11,7 @@ class SelectLanguage extends Component
     /**
      * Get the view / contents that represent the SelectLanguage component.
      *
-     * @return \Illuminate\Contracts\View\View|\Closure|string
+     * @return View|Closure|string
      */
     public function render()
     {
