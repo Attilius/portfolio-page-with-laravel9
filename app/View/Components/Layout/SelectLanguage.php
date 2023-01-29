@@ -8,6 +8,11 @@ use Illuminate\Contracts\View\View;
 
 class SelectLanguage extends Component
 {
+    /**
+     * Create a new Footer component instance.
+     *
+     * @return void
+     */
     public function __construct()
     {
         //
