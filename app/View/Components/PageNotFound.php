@@ -8,7 +8,7 @@ use Illuminate\View\Component;
 class PageNotFound extends Component
 {
     /**
-     * Create a new component instance.
+     * Create a new PageNotFound component instance.
      *
      * @return void
      */
