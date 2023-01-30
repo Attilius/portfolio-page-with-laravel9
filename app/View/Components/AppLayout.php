@@ -9,7 +9,7 @@ use Illuminate\View\Component;
 class AppLayout extends Component
 {
     /**
-     * Create a new component AppLayout instance.
+     * Create a new AppLayout component instance.
      *
      * @return void
      */
