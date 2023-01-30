@@ -9,7 +9,7 @@ use Illuminate\View\Component;
 class Button extends Component
 {
     /**
-     * Create a new component Button instance.
+     * Create a new Button component instance.
      *
      * @param string
      * @return void
