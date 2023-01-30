@@ -9,7 +9,7 @@ use Illuminate\Contracts\View\View;
 class ButtonLink extends Component
 {
     /**
-     * Create a new component ButtonLink instance.
+     * Create a new ButtonLink component instance.
      *
      * @return void
      */
