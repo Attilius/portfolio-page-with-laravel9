@@ -7,7 +7,7 @@ use Illuminate\View\Component;
 class PortfolioItem extends Component
 {
     /**
-     * Create a new component instance.
+     * Create a new PortfolioItem component instance.
      *
      * @return void
      */
