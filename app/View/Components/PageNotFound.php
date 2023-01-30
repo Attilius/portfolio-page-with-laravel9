@@ -18,7 +18,7 @@ class PageNotFound extends Component
     }
 
     /**
-     * Get the view / contents that represent the component.
+     * Get the view / contents that represent the PageNotFound component.
      *
      * @return View
      */
