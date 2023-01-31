@@ -21,9 +21,9 @@ class AppLayout extends Component
     /**
      * Get the view / contents that represent the AppLayout component.
      *
-     * @return View|Closure|string
+     * @return View
      */
-    public function render(): View|Closure|string
+    public function render(): View
     {
         return view('layout.app', ['page_not_found' => false]);
     }
