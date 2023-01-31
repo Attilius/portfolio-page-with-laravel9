@@ -21,9 +21,9 @@ class ButtonLink extends Component
     /**
      * Get the view / contents that represent the ButtonLink component.
      *
-     * @return View|Closure|string
+     * @return View
      */
-    public function render(): View|Closure|string
+    public function render(): View
     {
         return view('components.button-link');
     }
