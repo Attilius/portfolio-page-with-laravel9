@@ -2,7 +2,6 @@
 
 namespace App\View\Components\Home;
 
-use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Arr;
 use Illuminate\View\Component;
