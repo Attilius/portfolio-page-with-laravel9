@@ -8,7 +8,7 @@ use Illuminate\Contracts\View\View;
 class Input extends Component
 {
     /**
-     * Create a new input component instance.
+     * Create a new Input component instance.
      *
      * @return void
      */
