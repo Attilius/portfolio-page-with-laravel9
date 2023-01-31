@@ -18,7 +18,7 @@ class Input extends Component
     }
 
     /**
-     * Get the view / contents that represent the input component.
+     * Get the view / contents that represent the Input component.
      *
      * @return View
      */
