@@ -32,3 +32,4 @@ class ContactMail extends Mailable
                     ->view('mail.contact');
     }
 }
+
