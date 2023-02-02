@@ -49,7 +49,6 @@ class Portfolio extends Component
                 'category' => ['SCSS'],
                 'title' => 'Page design with SCSS',
                 'image' => url('/img/value_research.jpg'),
-                'github' => 'https://github.com/Attilius/Value_Research_-_Media_Freelancer.com_Project'
             ],
         ];
 
