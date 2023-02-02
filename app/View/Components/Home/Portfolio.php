@@ -45,8 +45,6 @@ class Portfolio extends Component
                 'image' => url('/img/music_player.jpg'),
                 'github' => 'https://github.com/Attilius/Music-player'
             ],
-            [
-            ],
         ];
 
         $this->tabs = array_unique(Arr::flatten(Arr::pluck($this->items, 'category')));
