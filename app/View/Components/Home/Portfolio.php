@@ -55,7 +55,6 @@ class Portfolio extends Component
                 'category' => ['Node.js'],
                 'title' => 'Travel guide API with Node.js',
                 'image' => url('/img/travel-guide-api.jpg'),
-                'github' =>  'https://github.com/Attilius/travel-guide-api'
             ],
         ];
 
