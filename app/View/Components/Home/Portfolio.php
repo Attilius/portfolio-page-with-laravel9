@@ -48,7 +48,6 @@ class Portfolio extends Component
             [
                 'category' => ['SCSS'],
                 'title' => 'Page design with SCSS',
-                'image' => url('/img/value_research.jpg'),
             ],
         ];
 
