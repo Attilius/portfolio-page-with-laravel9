@@ -34,12 +34,6 @@ class Portfolio extends Component
                 'github' => 'https://github.com/Attilius/Portfolio-Page'
             ],
             [
-                'category' => ['Bootstrap', 'Symfony'],
-                'title' => 'Contact form with Symfony6',
-                'image' => url('/img/contact.jpg'),
-                'github' => 'https://github.com/Attilius/contact-form-symfony6'
-            ],
-            [
                 'category' => ['Bootstrap', 'React'],
                 'title' => 'Music player app with React',
                 'image' => url('/img/music_player.jpg'),
