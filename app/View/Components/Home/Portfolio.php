@@ -28,12 +28,6 @@ class Portfolio extends Component
                 'github' => 'https://github.com/Attilius/Aviation_Project_with_Laravel'
             ],
             [
-                'category' => ['PHP'],
-                'title' => 'My first Portfolio Page',
-                'image' => url('/img/portfolio.jpg'),
-                'github' => 'https://github.com/Attilius/Portfolio-Page'
-            ],
-            [
                 'category' => ['Bootstrap', 'React'],
                 'title' => 'Music player app with React',
                 'image' => url('/img/music_player.jpg'),
