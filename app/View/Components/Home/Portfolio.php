@@ -46,7 +46,6 @@ class Portfolio extends Component
                 'github' => 'https://github.com/Attilius/Music-player'
             ],
             [
-                'category' => ['SCSS'],
             ],
         ];
 
