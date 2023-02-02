@@ -52,7 +52,6 @@ class Portfolio extends Component
                 'github' => 'https://github.com/Attilius/Value_Research_-_Media_Freelancer.com_Project'
             ],
             [
-                'category' => ['Node.js'],
             ],
         ];
 
