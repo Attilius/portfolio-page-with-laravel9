@@ -51,8 +51,6 @@ class Portfolio extends Component
                 'image' => url('/img/value_research.jpg'),
                 'github' => 'https://github.com/Attilius/Value_Research_-_Media_Freelancer.com_Project'
             ],
-            [
-            ],
         ];
 
         $this->tabs = array_unique(Arr::flatten(Arr::pluck($this->items, 'category')));
