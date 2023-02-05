@@ -48,3 +48,4 @@ class Portfolio extends Component
         return view('components.home.portfolio');
     }
 }
+
